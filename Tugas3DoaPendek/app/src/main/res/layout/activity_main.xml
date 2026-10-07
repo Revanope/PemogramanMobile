@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="KUMPULAN DOA-DOA PENDEK"
+        android:textColor="#3F51B5"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="18dp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/allah"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/btDoaMakan"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Doa makan"/>
+    <Button
+        android:id="@+id/btDoaTidur"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Doa tidur"/>
+    <Button
+        android:id="@+id/btDoaKeluarRumah"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Doa Keluar Rumah"/>
+    <Button
+        android:id="@+id/btDoaMasukMesjid"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Doa Masuk Mesjid"/>
+    <Button
+        android:id="@+id/btDoaKeluarMesjid"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Doa Keluar Mesjid"/>
+    <Button
+        android:id="@+id/btDoaSetelahAdzan"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Doa Setelah Adzan"/>
+</LinearLayout>

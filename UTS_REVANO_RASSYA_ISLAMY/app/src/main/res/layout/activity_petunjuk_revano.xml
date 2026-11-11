@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Petunjuk Utama"
+        android:textSize="30sp"
+        android:textColor="#000"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. Jalankan Aplikasi"
+        android:gravity="left"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2. Pilih Icon Gaji Pegawai untuk menjalankan simulasi"
+        android:gravity="left"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3. Pilih petunjuk penggunaan untuk cara penggunaan"
+        android:gravity="left"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4. Pilih Tentang Aplikasi untuk informasi tentang aplikasi"
+        android:gravity="left"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="5. Pilih Exit untuk keluar aplikasi"
+        android:gravity="left"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btnKeluar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Kembali"/>
+
+</LinearLayout>

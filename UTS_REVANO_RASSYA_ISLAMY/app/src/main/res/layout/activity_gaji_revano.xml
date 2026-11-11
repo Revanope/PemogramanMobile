@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GAJI KARYAWAN"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/etNik"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nomor Induk Karyawan"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/etNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama Karyawan"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/etGajiPokok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Gaji Pokok"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/etTunjJabatan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tunjangan Jabatan"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/etHariKerja"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Jumlah Hari Kerja"
+        android:inputType="number"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnHitung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HITUNG"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/tvTunjMakan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tunjangan Makan"
+        android:background="@android:drawable/editbox_background_normal"
+        android:padding="12dp"
+        android:layout_marginBottom="8dp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/tvTunjTransport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tunjangan Transportasi"
+        android:background="@android:drawable/editbox_background_normal"
+        android:padding="12dp"
+        android:layout_marginBottom="8dp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/tvGajiKotor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gaji Kotor"
+        android:background="@android:drawable/editbox_background_normal"
+        android:padding="12dp"
+        android:layout_marginBottom="8dp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/tvGajiBersih"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gaji Bersih"
+        android:background="@android:drawable/editbox_background_normal"
+        android:padding="12dp"
+        android:layout_marginBottom="8dp"
+        android:textColor="#000000"/>
+
+</LinearLayout>
